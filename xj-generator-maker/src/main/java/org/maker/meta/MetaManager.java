@@ -24,6 +24,7 @@ public class MetaManager {
         //Hutool工具类将字符串转换为Bean
         Meta newMeta = JSONUtil.toBean(metaStr, Meta.class);
         //TODO 检验配置文件 处理默认值
+        MetaValidator.doValidAndFill(newMeta);
         return newMeta;
     }
 }

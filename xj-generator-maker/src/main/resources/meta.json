@@ -6,8 +6,9 @@
   "author": "xiaojie",
   "createTime": "2024-02-14",
   "fileConfig": {
-    "inputRootPath": "D:/code/xj-generator/xj-generator-demo-projects/xj-generator-demo-projects-pro",
+    "inputRootPath": "./source/xj-generator-demo-projects-pro",
     "outputRootPath": "generated",
+    "sourceRootPath": "D:/code/xj-generator/xj-generator-demo-projects/xj-generator-demo-projects-pro",
     "type": "dir",
     "files": [
       {
