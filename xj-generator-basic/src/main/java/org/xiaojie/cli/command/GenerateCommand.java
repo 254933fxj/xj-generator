@@ -31,6 +31,7 @@ public class GenerateCommand implements Callable {
     private boolean loop;
 
 
+
     @Override
     public Integer call() throws Exception {
         MainTemplate mainTemplate = new MainTemplate();

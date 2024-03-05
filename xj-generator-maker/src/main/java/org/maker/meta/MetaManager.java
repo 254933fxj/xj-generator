@@ -18,6 +18,7 @@ public class MetaManager {
         }
         return meta;
     }
+
     private static Meta initMeta(){
         //Hutool工具类将json对象转换为字符串
         String metaStr = ResourceUtil.readUtf8Str("meta.json");

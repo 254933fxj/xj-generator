@@ -1,5 +1,7 @@
 ###custom template
 .idea
+.source
+.temp
 
 ### Java template
 # Compiled class file

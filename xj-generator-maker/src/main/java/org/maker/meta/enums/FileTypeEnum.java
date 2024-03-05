@@ -3,7 +3,11 @@ package org.maker.meta.enums;
 public enum FileTypeEnum {
 
     DIR("目录", "dir"),
+
+    GROUP("文件组", "group"),
     FILE("文件", "file");
+
+
 
     private final String text;
 
