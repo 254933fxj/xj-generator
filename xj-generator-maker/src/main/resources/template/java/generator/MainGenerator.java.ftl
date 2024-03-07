@@ -1,6 +1,8 @@
 package ${basePackage}.generator;
-import com.xj.model.DataModel;
+
+import com.yupi.model.DataModel;
 import freemarker.template.TemplateException;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -18,6 +20,7 @@ import java.io.IOException;
 * 核心生成器
 */
 public class MainGenerator {
+
 /**
 * 生成
 *

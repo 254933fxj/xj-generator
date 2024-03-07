@@ -21,7 +21,8 @@ public class MetaManager {
 
     private static Meta initMeta(){
         //Hutool工具类将json对象转换为字符串
-        String metaStr = ResourceUtil.readUtf8Str("meta.json");
+        //String metaStr = ResourceUtil.readUtf8Str("meta.json");
+        String metaStr = ResourceUtil.readUtf8Str("springboot_init.json");
         //Hutool工具类将字符串转换为Bean
         Meta newMeta = JSONUtil.toBean(metaStr, Meta.class);
         //TODO 检验配置文件 处理默认值

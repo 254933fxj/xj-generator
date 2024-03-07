@@ -8,7 +8,7 @@ import lombok.Data;
         ${indent} * ${modelInfo.description}
         ${indent} */
     </#if>
-    ${indent}public ${modelInfo.type} ${modelInfo.fieldName};
+    ${indent}public ${modelInfo.type} ${modelInfo.fieldName}<#if modelInfo.defaultValue??> = ${modelInfo.defaultValue?c}</#if>;
 </#macro>
 
 /**

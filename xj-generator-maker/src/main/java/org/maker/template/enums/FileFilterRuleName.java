@@ -5,6 +5,7 @@ import lombok.Getter;
 //文件过滤规则枚举
 @Getter
 public enum FileFilterRuleName {
+
     CONTAINS("包含", "contains"),
     START_WITH("前缀匹配", "startsWith"),
     END_WITH("后缀匹配", "endsWith"),

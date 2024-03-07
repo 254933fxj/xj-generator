@@ -22,6 +22,10 @@ public class TemplateMakerConfig {
          */
         private String path;
         /**
+         * 用于控制某个文件是否生成
+         */
+        private String conditon;
+        /**
          * 文件过滤规则
          */
         private List<FileFilterConfig> filterConfigList;
